@@ -49,4 +49,4 @@ const defaultTasks = [
 ];
 
 // We export the constructed redux store
-export default createStore(reducer, { tasks: defaultTasks });
+export const store = createStore(reducer, { tasks: defaultTasks });
